@@ -2,7 +2,7 @@
 
 给手绘电路图拍一张照，程序会自动认出里面的元件和连线，然后帮你生成 LaTeX 的 CircuiTikZ 代码。
 
-这是 Android 应用 PhotoCircuit 的 Python 版。
+这是 Android 应用 PhotoCircuit 的 Python 版，基于 [MAC-Projects/PhotoCircuit](https://github.com/MAC-Projects/PhotoCircuit) 重构而来。
 
 ---
 
@@ -76,6 +76,3 @@ python -m pytest
 
 测试里有一张示例电路图，会检查程序识别出的元件种类和数量是否正确。
 
----
-
-给开发者的架构说明和与原 Java 版的对照，见 `CLAUDE.md`。
